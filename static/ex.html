@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="ar", dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>arabec</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="menu.css">
+    <link rel="stylesheet" href="profile_page1.css">
+    <style>
+        
+    </style>
+</head>
+<body>
+    <nav class="navbar">
+        <button class="menu-btn" id="menu-btn">☰</button>
+        <div class="nav-text">abou talib.com</div>
+        <div class="logo1"><img src="img/logo.png" width="38px"></div>
+      </nav>
+      <div class="menu" id="menu">
+        <a href="{{url_for('sport')}}"> انشطة رياضية</a>
+        <a href="{{url_for('takafa')}}">الثقافة و الفنون</a>
+        <a href="{{url_for('arabec')}}">تحدي القرائة العربي</a>
+        <a href="{{url_for('svt')}}">التجارب العلمية</a>
+        <a href="{{url_for('map')}}">معالم بالمنطقة</a>
+
+      </div>
+    <main>
+        
+        <section class="article">
+            <div class="post">
+                <img src="img/R.jpg" class="profile">
+                <span>arabec</span>
+            </div>
+            <img src="https://th.bing.com/th/id/OIP.49wUtePvhhY6epOYz0gJPAHaEK?rs=1&pid=ImgDetMain" alt="">
+            <h2>//:::::::::::::::::://</h2>
+            <p id="paragraph1" class="paragraph">
+                هذا هو النص الكامل للفقرة الأولى. هذا هو النص الكامل للفقر الأولى. هذا هو النص الكامل للفقرة الأولى.
+                
+            </p>
+            <a href="javascript:void(0);" id="toggle-link1" class="toggle-link">عرض المزيد</a>
+        </section>
+        <section class="article">
+            <div class="post">
+                <img src="img/R.jpg" class="profile">
+                <span>sport</span>
+            </div>
+            <video src="img/phales.mp4" controls></video>
+            <h2>//:::::::::::::::::://</h2>
+            <p id="paragraph2" class="paragraph">
+                هذا هو النص الكامل للفقرة الأولى. هذا هو النص الكامل للفقرة الأولى. هذا هو النص الكامل للفقرة الأولى.
+            </p>
+            <a href="javascript:void(0);" id="toggle-link2" class="toggle-link">عرض المزيد</a> 
+        </section>
+
+    </main>
+    <script src="js/java.js"></script>
+</body>
+</html>
